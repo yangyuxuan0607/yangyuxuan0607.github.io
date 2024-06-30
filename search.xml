@@ -3,7 +3,7 @@
   <entry>
     <title>Spring Security 搭建</title>
     <url>/2024/06/30/Spring-Security-%E6%90%AD%E5%BB%BA-1/</url>
-    <content><![CDATA[<h4 id="Spring-Security-导入项目（SpringBoot-Vue3-0）"><a href="#Spring-Security-导入项目（SpringBoot-Vue3-0）" class="headerlink" title="Spring Security 导入项目（SpringBoot+Vue3.0）"></a>Spring Security 导入项目（SpringBoot+Vue3.0）</h4><p>假设已经搭建好了一个<code>SpringBoot+Vue3.0</code>项目，我们需要添加登录功能时，可以使用<strong>Spring Security</strong>来搭建</p>
+    <content><![CDATA[<h5 id="Spring-Security导入（SpringBoot-Vue3-0）项目"><a href="#Spring-Security导入（SpringBoot-Vue3-0）项目" class="headerlink" title="Spring Security导入（SpringBoot+Vue3.0）项目"></a>Spring Security导入（SpringBoot+Vue3.0）项目</h5><p>假设已经搭建好了一个<code>SpringBoot+Vue3.0</code>项目，我们需要实现登录功能时，可以使用<strong>Spring Security</strong>来搭建</p>
 <hr>
 <h5 id="1-引入依赖"><a href="#1-引入依赖" class="headerlink" title="1.引入依赖"></a>1.引入依赖</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//Spring Security</span></span><br><span class="line">&lt;dependency&gt;</span><br><span class="line">	&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</span><br><span class="line">	&lt;artifactId&gt;spring-boot-starter-security&lt;/artifactId&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure>
 <hr>
